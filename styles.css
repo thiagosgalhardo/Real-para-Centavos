@@ -1,0 +1,77 @@
+.window {
+  color: #CFCFCF;
+  margin: 0 auto;
+  width: 300px;
+  font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+  text-align: center;
+  color: #912CEE;
+}
+
+p {
+  text-align: center;
+  color: #912CEE;
+}
+
+input {
+  width: 99%;
+  display: block;
+  margin: auto;
+  font-size: 24px;
+  border: 2px solid #912CEE;
+  border-radius: 5%;
+}
+
+button {
+  margin-top: 10px;
+  font-family: 'Arial Black', cursive;
+  font-size: 16px;
+  width: 100%;
+  height: 50px;
+  padding: 5px;
+  color: #912CEE;
+  background-color: white;
+  border: 2px solid #912CEE;
+}
+
+button:hover {
+  cursor: pointer;
+  color: white;
+  background-color: #912CEE;
+  transition: 0.1s;
+}
+
+.total {
+  margin-top: 10px;
+  background-color: #912CEE;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+table {
+  margin-top: 10px;
+  width: 100%;
+  color: white;
+  border-collapse: collapse;
+}
+
+tr:nth-child(odd) {
+  background-color: #912CEE;
+}
+
+tr:nth-child(even) {
+  background-color: #912CEE;
+}
+
+td {
+  text-align: center;
+  height: 50px;
+  width: 50%;
+}
+
+td:nth-child(even) {
+  border-left: 1px solid #D3D3D3;
+}
